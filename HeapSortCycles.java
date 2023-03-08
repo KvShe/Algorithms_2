@@ -20,6 +20,8 @@ public class HeapSortCycles {
 
             if (sifting(numbers, size)) {
                 swap(numbers, 0, --size);
+            } else {
+                break;
             }
         }
     }
